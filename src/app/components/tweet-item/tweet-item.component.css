@@ -10,8 +10,15 @@ mat-card {
 
 .text {
     flex-grow: 3;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.remove_block {
+    flex-grow: 1;
+    text-align: right;
 }
 
 .remove {
-    flex-grow: 1;
+    text-align: center;
 }

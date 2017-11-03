@@ -2,8 +2,10 @@
   <div class="photo">
     <img src="{{ tweetData.userpic }}" alt="{{ tweetData.username }}">
   </div>
-  <div>{{ tweetData.text }}</div>
-  <button class="remove" mat-mini-fab (click)="delete()">
-    <mat-icon aria-hidden="true">delete</mat-icon>
-  </button>
+  <div class="text">{{ tweetData.text }}</div>
+  <div class="remove_block">
+    <button class="remove" mat-mini-fab (click)="delete()">
+      <mat-icon aria-hidden="true">delete</mat-icon>
+    </button>
+  </div>
 </mat-card>
