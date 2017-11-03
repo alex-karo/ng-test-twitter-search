@@ -1,0 +1,10 @@
+.app {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 1rem;
+}

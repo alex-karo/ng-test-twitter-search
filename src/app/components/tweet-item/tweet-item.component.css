@@ -1,0 +1,17 @@
+mat-card {
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    flex-grow: 1;
+}
+
+.text {
+    flex-grow: 3;
+}
+
+.remove {
+    flex-grow: 1;
+}
