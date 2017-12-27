@@ -8,6 +8,7 @@ import { TweetInterface } from '../interfaces/tweet';
 @Injectable()
 export class TwitterTasksService {
 
+  // TODO: Change to HttpClient
   constructor(private http: Http) {
   }
 
